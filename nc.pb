@@ -28,9 +28,11 @@ fi
 if [ "$start_port" -eq "$end_port" ]; then
   # Single port
   echo "To scan port $start_port on $ip with $protocol protocol, use:"
+  echo ""
   echo "nc $flags $ip $start_port"
 else
   # Port range
   echo "To scan ports $portrange on $ip with $protocol protocol, use:"
+  echo ""
   echo "nc $flags $ip $portrange"
 fi
