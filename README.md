@@ -1,7 +1,7 @@
 # Playbooks
 
 # Description
-Each script will build out the proper syntax for the command.
+Each script; being `.pb`; will build out the proper syntax for the command.
 
 # Usage
 ```bash nc.pb```
